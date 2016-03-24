@@ -1,0 +1,219 @@
+{
+    "list_year16": [{
+        "companyTitle": "Bisqit",
+        "companyDate": "March",
+        "companySkillsapplied": "Worked with Gulp & SASS to build out new page layouts to work alongside the existing Joomla CMS Bootstrap structure. Worked closely with the designers and PMs to make sure the UX and layouts matched the wireframes. jQuery library used to achieve accordion functionality. Updated markup and styles for staging were pushed to Git.",
+        "companyProjectoutline": "Joined the Design team to markup new assets and produce new front end functionality for the run up to the relaunch of CommitedToCure.org.",
+        "companyExpertise": "An international branding and design business. We help companies compete and communicate successfully. We do this with our thinking, our strategies and our expertise."
+    }, {
+        "companyTitle": "PWC",
+        "companyDate": "January - February",
+        "companySkillsapplied": "Using Grunt with SASS based on Bootstrap in a BEM methodology. Emphasis on using placeholders to create standalone themeable components for their component library. Themeing Drupal Entity Forms required a local Vagrant environment. Code reviews done with the Lead Front End Developers and UX specification brief with the onsite designers. Final working components were pushed to Git and submitted as a pull request.",
+        "companyProjectoutline": "Brought on to join the Back End Drupal team to build out mobile first Front End components for their Engage project.",
+        "companyExpertise": "Building relationships, creating value."
+    }],
+
+    "list_year15": [
+    {
+        "companyTitle": "Moving Brands",
+        "companyDate": "February",
+        "companySkillsapplied": "Using the Campaign Monitor platform as a benchmark for accurate Web\/Desktop\/Responsive Email Client rendering. Templates were coded up using fluid HTML & CSS layout techniques where CSS3 Media Queries wouldn't typically be supported.",
+        "companyProjectoutline": "\u200b\u200b\u200bTo develop eight Responsive Email Templates for a Moving Brands Client. Working with Designers and another Developer to interpret an implementation route for maximum 'live text' whilst preserving Design and Branding for delivery.",
+        "companyExpertise": "Moving Brands is an independent, global creative company"
+    },
+
+    {
+        "companyTitle": "Ready To Air",
+        "companyDate": "March",
+        "companySkillsapplied": "Hand coding CSS\/SASS in Sublime. Working with the onsite a backend developer to set up a local version of their Ruby CMS. Adopted a Shame CSS methodology to manage the the Agile day to day delivery requirements. Knowledge of HTML stacking structure in context of page layouts to address Bootstrap breakpoints and apply optimisations in a timely manner.",
+        "companyProjectoutline": "\u200b\u200bOptimizing a proprietary video stream platform for responsive applications in the run up for a soft launch. Worked with the Ready To Air team in auditing the initial platforms Front End look and feel in order to build out an initial specification. Having firm grasp of Responsive Development in SASS was crucial to successful delivery.",
+        "companyExpertise": "Ready to Air specialises in securely streaming video content to the world\u2019s media."
+    },{
+        "companyTitle": "Dennis Publishing",
+        "companyDate": "March \u200b\u00ad- \u200bJune\u200b\u200b",
+        "companySkillsapplied": "Gained exposure to Kanban development. Used team working tools such as Slack and Fogbugz to alert PM\u2019s on development targets reached. Used Koala Sass Compiler to for local builds of the new theme PSD\u2019s. Source Tree was used to commit changes daily and updates to Github. IE9+ compatibility achieved using Browser Stack testing.",
+        "companyProjectoutline": "Brought into the Dennis Digital Team to revamp (skin and theme) the BuyaCar.co.uk website. The BuyaCar platform sits on a legacy JSP templating system, so being brought up to speed by their Java Developer on how the pages layouts were populated gave clear context for my Front\u00adEnd skill set to assess how best to retheme the site.",
+        "companyExpertise": "\u200bDennis Publishing is a dynamic 21st century media company that values its people above all else."
+    }, {
+        "companyTitle": "GameAccount Network",
+        "companyDate": "June \u200b\u00ad- August",
+        "companySkillsapplied": "Became versed in pushing content across from Local to Dev to Alpha environments via Jira assigned tasks and tickets. Utilised Node.js based Development Tools such as Grunt for compiling SASS and JS to build out HTML5 content and from Design Assets . Used TortoiseHg to commit code back to the main Dev branch.",
+        "companyProjectoutline": "To maintain, reskin and optimise a number of GameAccount Network's Casino based clientele. Experience in JSP templating frameworks and Responsive SASS based layouts were a crucial to fit working along side the Front End Development Team.",
+        "companyExpertise": "\u200bGameAccount Network Delivering your Business Online."
+    }, {
+        "companyTitle": "Matches Fashion",
+        "companyDate": "<p class=\"date-titleY\"><strong>september \u200b\u00ad- October<\/strong><\/p>",
+        "companySkillsapplied": "CSS3 and knowledge of table markup for selecting and optimizing responsive templates for each campaign. Media queries were used for desktop\/mobile friendly client rendering. Exposure to Matches Fashion\u2019s newer email platform Sailthru allowed for dynamic product, price and image links.",
+        "companyProjectoutline": "Covering for a developer on the CRM Team and maintaining day-to-day\/week-to-week campaign volume. I liaised with the CRM Team to generate mobile first responsive layouts for this period.",
+        "companyExpertise": "Designer Clothing, Women's and Men's Luxury Designer Clothes."
+    },  {
+        "companyTitle": "not on the high street",
+        "companyDate": "October - December",
+        "companySkillsapplied": "Exposure to creating layouts with the Handlebars.js Framework. Architecting fundamental layout content with the linked JSON file. Campaigns were tested on Litmus before pushing to the Bronto CRM platform. Git command line was used to back up the repository of campaigns.",
+        "companyProjectoutline": "Brought in to hit the ground running with the CRM and Creative Team. Tasked with developing responsive Email layouts using NOTHS bespoke Node.js based templating system. The Black Friday, Christmas and New Year period typically involve a great deal of unique one-off promotional content. Experience in Agile Development and planning around tight delivery deadlines proved invaluable here.",
+        "companyExpertise": "Unique Gift Ideas and Personalized Gifts."
+    } ],
+
+    "list_year14": [{
+        "companyTitle": "\u200b \u200bBlood, Sweat &#038; Tears\u200b(\u200bBS&#038;T\u200b)",
+        "companyDate": "January -\u00ad February",
+        "companySkillsapplied": "Using Boostrap Framework, I was able to quickly implement CSS Classes and Div stacking to the site wide standard to achieve the base of the responsive layout. Where Bootstrap didn\u2019t suffice I had to develop custom Classes and CSS Media Queries to achieve the desired page layout for mobile, tablet and desktop continuity. For dynamic aspects of the page SmoothScroll.js & Colorbox.js were sourced. I was also tasked with developing a time sensitive price switch function in jQuery for a separate campaign page on the site",
+        "companyProjectoutline": "\u200bWorked in the design and development team to launch the campaign #NOREGRETS AdventureChallenge for Contiki.com. Developing for a mobile first strategy I came on board to mark up the final approved design into a HTML5 Responsive campaign Landing Page. I also assisted in scoping out the Mobile UI requirements as well as cross browser\/device testing in BrowserStack.",
+        "companyExpertise": "\u200b \u200bA Digital Agency that offers a wide range of solutions for publications, websites and digital media."
+    }, {
+        "companyTitle": "Matches Fashion",
+        "companyDate": "March - \u00ad June",
+        "companySkillsapplied": "Page Content was hand coded in Sublime Text editor using XHTML\/HTML5 with sourced jQuery snippets and custom CSS for Bespoke & layouts optimizations. Local browsers such as Chrome\/FF\/IE were used for cruder development tests. Sliced PSD Assets were hosted live via CyberDuck",
+        "companyProjectoutline": "mplementing Front\u00adEnd Page Builds from PSD's for Desktop and Mobile. Day to day development was prioritized via the weekly page build schedule, i.e. Editorials, Womens\/Mens Wear and Landing Pages were developed in Matches Staging environment and pushed to Live in the Quantive .Net CMS Platform. Email Marketing Campaigns were managed via the The Lyris Email Marketing Platform.",
+        "companyExpertise": "atchesfashion.com is a luxury fashion retailer for men and women. digital media."
+    },  {
+        "companyTitle": "\u200bBlood, Sweat &#038; Tears (\u200bBS&#038;T\u200b)",
+        "companyDate": "June \u2013 July",
+        "companySkillsapplied": "Using the Bootstrap Framework as a start point, a custom navigation menu was developed specifically for this project. jQuery, CSS3 and HTML5 were coded with a Mobile First priority in order to support as many devices as possible. Once this was completed, it could be integrated into each page of the microsite. The remaining Responsive Page Builds were integrated into Contiki\u2019s Ruby On Rails based CMS. Extensive device testing was done via BrowserStack, and Custom Javascript and jQuery functions were implemented to disable video playback for tablets and to support simple form validation functionality.",
+        "companyProjectoutline": "\u200bWith VidCon 2014 set to launch on June 26th over in California, this Front end contract role had me working with Lead Designers at BS&T to build out the bespoke HTML5, CSS, UI\/UX and Mobile support for Contiki's Adventure Travel RoadTrip Microsite. Brought on board in early June The aim was to have it go live by the time Vicon was underway.",
+        "companyExpertise": "\u200bA Digital Agency that offers a wide range of solutions for publications, websites and digital media."
+    }, {
+        "companyTitle": "Hearst Magazines UK",
+        "companyDate": "August \u2013 October",
+        "companySkillsapplied": "Projects worked on consisted of HTML5 builds, and those with richer UX utilised the HTML5 variant of the GreenSock animation framework for more consistent browser support (IE9). Quick turn around often required utilising the teams commercial code repository for typical build. For Microsite development the Github variant of Beanstalk was used to push content live, whilst with ad module builds the Pictela platform was used to test and preview ads on campaign pages.",
+        "companyProjectoutline": "\u200bWorking along side their commercial team, I took care of building out content for campaign pages\/Microsites and developing advertisement modules (MPU, Bulletin Boards, Leader Boards etc) depending on the each weeks sprint.",
+        "companyExpertise": "Hearst Magazines UK is the largest digital publisher in the UK. Our reach extends to 1 in 3 UK women and 1 in 4 UK adults through our portfolio of 19 magazines and 26 websites."
+    },{
+        "companyTitle": "Tesco (F&#038;F)",
+        "companyDate": "October \u2013 December",
+        "companySkillsapplied": "Exposure to Asana ticketing system as a means to get sign\u00adoff and feedback from the Design, Trading and Copywriter Teams. Maintaining page build quality with hand coded HTML5 & CSS3, as well as keeping backup continuity between Staging and Live site publishing.",
+        "companyProjectoutline": "Working on the Tesco\/F&F Clothing Front\u00adend\u00addevelopment team for the run up to Black Friday and Xmas\/New Year period. Typical Page builds covered Homepage\/Womens Wear\/Mens Wear\/Kids Wear\/Editorials as well as Header\/Footer\/Nav fixes depending on ticket scheduling via Asana (Teamwork without email).",
+        "companyExpertise": "Tesco (F&F) \u200bShop Online for the Latest Fashions and Styles."
+    }],
+
+    "list_year13": [
+    {
+        "companyTitle": "Think Publishing",
+        "companyDate": "February",
+        "companySkillsapplied": "\u200b \u200bCreating WordPress Templates with HTML and CSS\/CSS3 techniques. Mocking up demo content running jQuery UI functionality for testing. Setting up and testing Paypal Checkout features, analyzing User Journeys\/UX and detailing functionality of content to corresponding pages i.e. coding up layouts for subscription page\/manage subscriptions registration page ect.",
+        "companyProjectoutline": "\u200bWorking alongside an in house Front\u00adend Developer, I was tasked with integrating a Booking System, and Login Plugin for WordPress CMS for their client London Print Studio. User Journeys\/UX were presented face to face with the client when specification of content had been developed tested and updated onto the live site. The successfully Integrated plugins ultimately allowed the site's users\/subscribers and administrators to adequately engage and manage their experience with maximum autonomy and automation.",
+        "companyExpertise": "Expertise: \u200bWe create engaging and effective multiplatform content for our clients"
+    },   {
+        "companyTitle": "Parker\u00adFitzgerald",
+        "companyDate": "March",
+        "companySkillsapplied": "Notepad ++ to hand the Responsive Menu component. CSS2\/3 techniques of \"Max\u00adwidth\" percentages to make sure menu proportions were constrained when scaling to minimum tablet resolution and maximum screen resolution. IE\/Chrome\/FireFox\/Devtool's for testing\/debugging and Tablet spec was tested with the ever useful IpadPeek web app. A \"PHP Includes\" technique was used to call the separate HTML file where the menu could sit independently from the WordPress site for easy maintenance and re\u00adintegration if needed.",
+        "companyProjectoutline": "Working Remotely and liaising with another Developer via Skype I was tasked with developing a responsive (tablet compatible) menu component for Parker FitzGerald's Devsite.",
+        "companyExpertise": "\u200bA Financial Services Firm Based in London"
+    }, {
+        "companyTitle": "\u200bGrey Healthcare Group",
+        "companyDate": "May",
+        "companySkillsapplied": "A clear understanding of CSS\/HTML conventions in context of the Adobe CQ5 CMS development environment, to produce and configure page builds from the components sidekick. Referring to PSD's and CMS Documentation on hand to produce page build consisting for various use case scenarios.",
+        "companyProjectoutline": "\u200b \u200b \u200bAs the sole Front\u00adend Developer onsite, i was required to assist page production and complete remedial work for one of Grey Health's Clients. Using Adobe CQ5 CMS.",
+        "companyExpertise": "Full Service Integrated Advertising Agency"
+    },
+    {
+        "companyTitle": "Nitrogen ( a Huntsworth Health Company)",
+        "companyDate": "May",
+        "companySkillsapplied": "Notepad ++\/Sublime to hand code HTML\/CSS project files. CSS3 and Chrome Devtools for tweaking tablet theme\/design and customizing transitions to spec. SVN to commit completed tablet slides to repository. Basic exposure to SalesForce for adding new project slides. Where required I was able to integrate the iScroll plugin to enable IPad X\/Y Scrolling functionality.",
+        "companyProjectoutline": " \u200bLocalizing an interactive Product User Manual for a Healthcare Client for the German market via a Tablet (iPad) Specification. Provided with the UX as well as copy and Design Assets, I liaised with Nitrogen's in house team in interpreting the specification as for pushing content to Tablets for Testing and Review Stages.",
+        "companyExpertise": "\u200bA Strategic Brand Experience Agency"
+    },
+     {
+        "companyTitle": "Molton Brown",
+        "companyDate": "September -\u00ad November",
+        "companySkillsapplied": "\u200b Using Sublime Text to develop bespoke HTML and CSS locally. Code was integrated into a JSP template for testing on staging. jQuery was used to trigger LightBox functionality where required. Testing the markup required legacy browser compliance testing (down to IE7). HTML and CSS3 Media Queries were used to support Mobile devices when marking up responsive email templates.",
+        "companyProjectoutline": "\u200bWorking along side Molton Brown's creative team, I liaised with their E\u00adcommerce team to produce Front\u00adend markup for their Oracle ATG CMS. For Responsive Email development I worked closely with their CRM team to produce templates for their YesMail email marketing platform.",
+        "companyExpertise": "Working along side Molton Brown's creative team, I liaised with their E\u00adcommerce team to produce Front\u00adend markup for their Oracle ATG CMS. For Responsive Email development I worked closely with their CRM team to produce templates for their YesMail email marketing platform."
+    }],
+
+    "list_year12": [ {
+        "companyTitle": "Merchant Cantos",
+        "companyDate": "February",
+        "companySkillsapplied": "Using Visual Studio to hand code HTML and CSS, working within the open sourced Umbraco CMS frame work. Using Tortoise SVN for committing completed work to the project file repository.",
+        
+        "companyExpertise": "\u200bA \u200bUK\u00adbased international Design and Communication Agency"
+    }, {
+        "companyTitle": "Neutral",
+        "companyDate": "March",
+        "companySkillsapplied": "Skills Applied:\u200bUsing in Notepad++ in Hand coding HTML\/HTML5 techniques and pushing for CSS3 standards when support was available. Referring to PSD' slices designs for initial layout\/element sizes. Sourcing jQuery components for carousel functionality. Testing fluid layouts on a range of mobile and tablet devices.",
+        
+        "companyExpertise": "\u200bNeutral specializes in integrated communication design and technology solutions"
+    },   {
+        "companyTitle": "Bureau for Visual Affairs",
+        "companyDate": "April",
+        "companySkillsapplied": "Skills Applied:\u200bHand coding in Notepad++, using browser testing\/development tools such as Firebug\/Chrome Developer tool for fluid layout scaling. jQuery was sourced specifically for toggling hidden configuration panel\u2019s and for bespoke combo\u00adbox styling across IE and FF. Additionally CSS3 styles were sourced to add iphone\u00adcentric toggle\/button sliders effects.",
+        
+        "companyExpertise": "Bureau for Visual Affairs develops communication tools for businesses"
+    }, {
+        "companyTitle": "Band Stand",
+        "companyDate": "August",
+        "companySkillsapplied": "\u200bPrimarily I worked on coding (HTML\/CSS) updates for client sites\u037e CottonUSA (both English and localised Italian version), as well as providing documentation for Bandstands client Seller Property Group on how to use their Wordpress CMS. I also produced Wire Frame Topography for the development of Park House project that bandstand was involved in.",
+        
+        "companyExpertise": "Bandstand are a brand driven design and marketing agency based in London"
+    },  {
+        "companyTitle": "Dewynters",
+        "companyDate": "September",
+        "companySkillsapplied": "\u200bPrimarily setting the style sheet directory to correspond with the local devsite. Using HTML & CSS Google Chrome's developer tool to test, and get sign off for implementation of proposed lay",
+        
+        "companyExpertise": "Full service live arts and entertainment advertising agency"
+    },{
+        "companyTitle": "Pokerstars",
+        "companyDate": "September",
+        "companySkillsapplied": "W3C standard HTML & CSS. Image replacement for form buttons gradients to ensure consistence branding across all browsers",
+        "companyExpertise": "A Digital Communications Agency based in London"
+    }, {
+        "companyTitle": "Karmarama",
+        "companyDate": "November",
+        "companySkillsapplied": ":\u200bHand coding HTML\/CSS3 Using Notepad ++. Integrating and modifying the Jquery Gallerific content slider for additional interactivity such as location diagram identifiers and floor map navigation elements. Inline CSS for testing. Fully referencing a font into the theme for maximum browser compliance (IE9\/chrome\/Firefox\/Safari). Additional iPad Testing was done via Ipadpeek which emulates accurate CSS rendering and screen size.",
+        "companyProjectoutline": "HTML\/CSS to add content. Milestone amendments were submitted to the repository via Git (a version control tool) for the client to review. Content updates were made using Notepad ++, and where needed a Xampp was used to test changes locally via my laptop before submitting changes to the staging area.",
+        "companyExpertise": "Karmarama is an independently owned creative British advertising agency Skills"
+    }, {
+        "companyTitle": "The Good Agency",
+        "companyDate": "November",
+        "companySkillsapplied": "Hand coding Limited testing capabilities required me to research Email Marketing tools such as Campaign Monitor, whom provide base line templates for which to build out campaigns from. Using this as a comparability start point, I used Inline Styled CSS and Table HTML tags to build out the required design with relative ease.",
+        "companyExpertise": "A Digital Communications Agency based in London"
+    },{
+        "companyTitle": "OutfitCreate",
+        "companyDate": "December",
+        "companySkillsapplied": "Hand coding HTML\/CSS3 Using Notepad ++. Integrating and modifying the Jquery Gallerific content slider for additional interactivity such as location diagram identifiers and floor map navigation elements. Inline CSS for testing. Fully referencing a font into the theme for maximum browser compliance (IE9\/chrome\/Firefox\/Safari). Additional iPad Testing was done via Ipadpeek which emulates accurate CSS rendering and screen size.",
+        "companyProjectoutline": "\u200b \u200bWorking remotely to code up a Wordpress Theme for a real\u00adestate project via supplied PDF\/Adobe InDesign file. Minimum mobile accessibility required the support of iPad screens (1024x768 pixels). My research for the User Experience involved testing suitable open\u00adsource HTML5 content sliders for scalability and for additional interaction customization for the theme spec. The HTML5 framework used for developing the Wordpress theme was Reverie.The latter half of this role involved liaising with another developer for to fine tune the user experience.",
+        "companyExpertise": "Outfit is a creative design agency based in East London"
+    },  {
+        "companyTitle": "River Island",
+        "companyDate": "December- January",
+        "companySkillsapplied": "\u200bHand coding HTML\/CSS in relative and absolute positioning context. Integrating the Easyslider plugin where needed for revolving content on the homepage. Liaising with the Graphics team for asset handover specificity. Development tools allocated to me for this role was Adobe Dreamweaver and the Firebug developer tool.",
+        "companyProjectoutline": "Working as a developer on the Graphic Design team, I was given assets to code up for the Riverisland Hompage,as well as Women s, Men's, Girls and Boy's Landing Pages for the Christmas\/New Year period. Content was coded, tested in staging and scheduled for publishing into their Net powered Umbraco CMS. Often several changes to a single page were required in a single in a day so emphasis on quick turnaround was paramount.",
+        "companyExpertise": "Retail\/E commerce \u00ad Fashion Clothing for Women, Men, Boys and Girls"
+    }],
+
+    "list_year11": [{
+        "companyTitle": "Freelance Portfolio Project",
+        "companyDate": "January - February",
+        "companySkillsapplied": "Remote Client Management, HTML\/CSS for browser compatibility and knowledge of the WordPress back end PHP file\/page structure for theme and plugin development."
+        
+        
+    }, {
+        "companyTitle": "Governor Technology Ltd",
+        "companyDate": "February - August",
+        "companySkillsapplied": "\u200b XHTML\/CSS, W3C Accessibility techniques scripting. Using Campaign Monitor to schedule email campaigns and creating bespoke self service email templates, a feature that campaign explicitly offers to its user\u00adbase.",
+        "companyExpertise": "An agile, independent web design and development company"
+    }, {
+        "companyTitle": "iProspermedia",
+        "companyDate": "November - February",
+        "companySkillsapplied": "Theming Wordpress and configuring plugin functionality format  layout for number of sites including but not limited to: http:\/\/www.comparejuniorisa.com\/  http:\/\/www.pensioncalculator.org\/ Skills Applied: \u200bStyling HTML\/5 with CSS to W3C standards. Working to style content within the Wordpress SQL Loop calls, I.e. what Categories and what number of Posts (eg \"cat=3&showposts=5\") the PHP query should to display a custom Wordpress page template",
+        "companyExpertise": "A \u200bUK\u00ad based international Design and Communication Agency"
+    }],
+
+    "list_year10": [{
+        "companyTitle": "Digital Snowball",
+        "companyDate": "July\u00ad - August",
+        "companySkillsapplied": "XHTML\/CSS, SEO Friendly techniques, configuring Server\u00adside\/Client\u00adside scripting.",
+        "companyExpertise": "London\u00adbased media production company specializing in web design, corporate video production and digital marketing"
+    }, {
+        "companyTitle": "JWT (J Walter Thompson)",
+        "companyDate": "October",
+        "companySkillsapplied": "\u200b \u200bResearching and collating Brand logo information required for product database. Researched logo information would be exported via XML into a Flash Application.",
+        
+        "companyExpertise": "JWT London is an integrated creative agency of international imagination."
+    }, {
+        "companyTitle": "World Trade Group (WTG)",
+        "companyDate": "December",
+        "companySkillsapplied": "\u200bHand coding In Dreamweaver using HTML and CSS to update company and conference event newsletter templates. Photoshop was also used for finalizing event sponsor logos. Occasionally I was asked to Update live ASP pages(via Dreamweaver) with new content such as event information or new logo designs made from the print department. Responsibilities and tasks for the day varied as amendments are constantly reviewed and new jobs come through via on the companies intranet job bulletin board.",
+        "companyExpertise": "A corporate events & media company"
+    }]
+}

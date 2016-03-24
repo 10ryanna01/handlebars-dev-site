@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<!-- 
+                                                                                        .-'''-.                                                         .-'''-.                                               .-'''-.                                           
+                                                                                       '   _    \                                                      '   _    \                                            '   _    \                                         
+                                               .--.                                  /   /` '.   \ ,.--.             __.....__                       /   /` '.   \.--.  _..._                              /   /` '.   \                                        
+                                               |__|    _.._           .-.          ..   |     \  '//    \        .-''         '.               .--./.   |     \  '|__|.'     '.  .--./)                   .   |     \  '                        .-.          .- 
+                                               .--.  .' .._|           \ \        / |   '      |  \\    .-,.--. /     .-''"'-.  `.            /.''\\|   '      |  .--.   .-.   ./.''\\                  .||   '      |  '               .| .-,.--\ \        / / 
+                                               |  |  | '                \ \      / /\    \     / / `'-)/|  .-. /     /________\   \          | |  | \    \     / /|  |  '   '  | |  | |               .' |\    \     / /              .' |_|  .-. \ \      / /  
+                                               |  |__| |__               \ \    / /  `.   ` ..' _    /' | |  | |                  |           \`-' / `.   ` ..' / |  |  |   |  |\`-' /              .'     `.   ` ..' /             .'     | |  | |\ \    / /   
+                                               |  |__   __|               \ \  / /      '-...-'| '  / | | |  | \    .-------------'           /("'`     '-...-'`  |  |  |   |  |/("'`              '--.  .-'  '-...-'`             '--.  .-| |  | | \ \  / /    
+ ,.--. ,.--. ,.--. ,.--. ,.--. ,.--.           |  |  | |                   \ `  /             .' | .' | | |  '- \    '-.____...---.           \ '---.             |  |  |   |  |\ '---.               |  |                            |  | | |  '-   \ `  /     
+//    //    //    //    //    //    \          |__|  | |                    \  /              /  | /  | | |      `.             .'             /'""'.\            |__|  |   |  | /'""'.\              |  |                            |  | | |        \  /      
+\\    \\    \\    \\    \\    \\    /                | |                    / /              |   `'.  | | |        `''-...... -'              ||     ||              |  |   |  |||     ||             |  '.'                          |  '.| |        / /       
+ `'--' `'--' `'--' `'--' `'--' `'--'                 | |                |`-' /               '   .'|  '/|_|                                   \'. __//               |  |   |  |\'. __//              |   /                           |   /|_|    |`-' /        
+           .-'''-.                                   |_|                 '..'                 `-'  `--'                                        `'---'                '--'   '--' `'---'               `'-'                            `'-'         '..'         
+          '   _    \                     .---.---.                                                                                                                                                                                                              
+        /   /` '.   \                    |   |   |                    .             __.....__                                                                                                                                                                   
+  .--./.   |     \  '                    |   |   |                  .'|         .-''         '.                   _     _   .-.          .-                                                                                                                     
+ /.''\\|   '      |  '                   |   |   |               .|<  |        /     .-''"'-.  `.           /\    \\   //    \ \        / /                                                                                                                     
+| |  | \    \     / /               __   |   |   |             .' |_| |       /     /________\   \          `\\  //\\ // __   \ \      / /                                                                                                                      
+ \`-' / `.   ` ..' /             .:--.'. |   |   |           .'     | | .'''-.|                  |            \`//  \'.:--.'.  \ \    / /                                                                                                                       
+ /("'`     '-...-'`             / |   \ ||   |   |          '--.  .-| |/.'''. \    .-------------'             \|   |/ |   \ |  \ \  / /                                                                                                                        
+ \ '---.                        `" __ | ||   |   |             |  | |  /    | |\    '-.____...---.              '    `" __ | |   \ `  /               ,.--. ,.--. ,.--. ,.--. ,.--. ,.--.                                                                       
+  /'""'.\                        .'.''| ||   |   |             |  | | |     | | `.             .'                     .'.''| |    \  /               //    //    //    //    //    //    \                                                                      
+ ||     ||                      / /   | |'---'---'             |  '.| |     | |   `''-...... -'                      / /   | |_   / /                \\    \\    \\    \\    \\    \\    /                                                                      
+ \'. __//                       \ \._,\ '/                     |   /| '.    | '.                                     \ \._,\ '|`-' /                  `'--' `'--' `'--' `'--' `'--' `'--'                                                                       
+  `'---'                         `--'  `"                      `'-' '---'   '---'                                     `--'  `" '..'                                                                                                                             
+ -->
+<html class="no-js" lang="en">
+<head>
+
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  
+ <meta name="Copyright" content="InsightSurfer">
+          <meta name="Designer" content="Ryann Al-lahiq">
+          <meta name="Keywords" content=
+          "Front End Development, London, UK, HTML5, UI Developer, Front End Developer, Open Source, Responsive Web Development, ">
+          <meta name="Abstract" content="Front End Web Development">
+          <meta name="Title" content="InsightSurfer">
+          <meta name="revisit-after" content="7">
+          <meta name="Robots" content="index,follow">
+          <meta name="Description" content=
+          "Insightsurfer.net Is the home of Ryann Al-lahiq's Portfolio. He is a Front End Web Developer Based in London UK">
+          <meta name="Author" content="Ryann Al-lahiq">
+         <link href="web/resources/images/favicon.png" rel="shortcut icon" type=
+    "image/png">
+
+          <title>
+            Insightsurfer.net Is the home of Ryann Al-lahiq's Portfolio. He is a Front End Web Developer Based in London UK
+          </title><!-- page title. -->
+
+ <link rel="stylesheet" type="text/css" href="web/resources/stylesheets/style.css">
+ 
+ <script src="./web/resources/js/head.js" data-headjs-load="./web/resources/js/init.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+
+<!-- add in this neat google font -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab:400,800">
+
+
+
+  
+     
+
+
+</head>
+
+<body>
+    <!--  start preloader -->
+
+<!--     <div id="preloader">
+        <h1>One sec...</h1>
+    </div> -->
+
+    <!-- end pre loader -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- super cool suzy grid 3*3   -->
+    <div class="main-content-wrapper">
+
+
+        <section class="profile">
+
+          <a class="fancybox mobilecontact"  href="#contactmeDude">
+            <div class="container1">
+                <h1>    Get in touch   </h1>
+
+                <span class="rmore-1 fa fa-plus"></span>
+            </div>
+
+             
+            </a>
+
+
+
+
+
+            <div class="picture-wrap">
+
+
+ 
+
+
+
+                <p class="profilePicture"><img src=
+                "web/resources/images/profile.png"></p>
+
+                <div class="infoCopy">
+                    <div class="infocopy-Text">
+                        <p>ryann al-lahiq</p>
+
+                        <p>experienced Front End Developer  
+                        <!--  transition 6 years in the making --></p>
+
+                        <p>based in London, UK</p>
+                    </div>
+
+                    <p class="socialize">
+
+                     <a href="https://uk.linkedin.com/in/ryannwithtwons" title="follow me on linkedin"  target="_blank" > 
+                     <i class="fa fa-linkedin-square"></i>
+                    </a>
+
+
+                    <i class="fa fa-connectdevelop fancybox" href="#contactmeDude" title="get in touch" >
+                    </i> 
+
+                    <a href="https://twitter.com/insightsurfer" title="follow me on twitter" target="_blank"><i class=
+                    "fa fa-twitter-square"></i></a></p><!-- ends top half -->
+                </div><!-- start -->
+                <!-- MixItUp filters by https://mixitup.kunkalabs.com -->
+                <!-- ======================================================= -->
+
+                <div class="sortFilters" id="goToTop">
+                    <div class="filter" data-filter="all">
+                        Latest Work
+                    </div>
+
+                    <div class="filter" data-filter=".category-2016">
+                        2016
+                    </div>  
+
+                     <div class="filter" data-filter=".category-2015">
+                        2015
+                    </div>
+
+                    <div class="filter" data-filter=".category-2014">
+                        2014
+                    </div>
+
+                    <div class="filter" data-filter=".category-2013">
+                        2013
+                    </div>
+
+                    <div class="filter" data-filter=".category-2012">
+                        2012
+                    </div>
+
+                    <div class="filter" data-filter=".category-2011">
+                        2011
+                    </div>
+
+                    <div class="filter" data-filter=".category-2010">
+                        2010
+                    </div>
+
+
+                </div>
+
+
+<!-- start mobile menu filter -->
+                <div class="mobile-menu-combo">
+
+ 
+<div class="controls">
+   
+  <select onchange="$('.js-mobilecontainer').mixItUp('filter', this.value)" id="FilterSelect" class=" mobile-menu-select">
+    <option value="all">latest work</option>
+    <option value=".category-2016">2016</option>
+    <option value=".category-2015">2015</option>
+    <option value=".category-2014">2014</option>
+    <option value=".category-2013">2013</option>
+    <option value=".category-2012">2012</option>
+    <option value=".category-2011">2011</option>
+    <option value=".category-2010">2010</option>
+  </select>
+ 
+
+</div>
+ 
+  </div><!--  end mobile filter -->
+          
+
+
+ 
+
+       </div> <!-- end picture wrap -->
+        </section><!-- ============================================= -->
+        <!--suweeet! this ends the profile section -->
+        <!-- ============================================= -->
+
+        <section class="buffer"></section>
+
+        <section class="experiance">
+            <a href="http://insightsurfer.net/RyannAllahiqCV.pdf" target="_blank" title="Grab My Resume">
+            <div class="container1  js-content-nav">
+                <h1><i class="fa fa-star"></i> Grab My
+                R&egrave;sum&egrave;</h1>
+            </div>
+
+            <div class="container2 zigzag"></div>
+            </a>
+
+
+
+            <div id="workexperiance" class="js-mobilecontainer">
+                <!-- start timeline -->
+
+
+
+
+                
+                    <!--  start time line item -->
+
+
+                  
+
+ 
+
+
+<div id="output"> 
+ 
+  
+<h1>Loading Portfolio content...</h1>
+
+
+ 
+
+
+
+<!-- end output wrapper -->
+</div>
+ 
+            
+
+
+
+
+
+
+
+ 
+ 
+ 
+             </div><!-- work experiance -->
+        </section>
+
+
+
+
+
+
+
+
+
+
+ <section class="buffer-3"></section>
+
+        <section class="powerups">
+
+
+
+
+           <a class="fancybox"  href="#contactmeDude">
+            <div class="container1">
+                <h1>  <i class="fa fa-envelope-o"></i>  Get in touch   </h1> 
+
+            </div> 
+            <div class="container2 zigzag"></div>
+            </a>
+
+
+
+ 
+<!-- start contact form -->
+
+ 
+<!-- hidden inline form -->
+<div id="contactmeDude">
+  
+  
+    <h2>Need to get in Touch?</h2>
+ 
+      <h3>Want to book me? Have a question you want to run by me? Go for it! </h3>
+    <form id="contact" name="contact" action="#" method="post">
+        <label for="email">Your E-mail:</label>
+        <input type="email" id="email" placeholder="don't for get the @" name="email" class="txt">
+        <br><br>
+        <label for="msg">Enter a Message:</label>
+        <textarea id="msg" name="msg" class="txtarea" placeholder="let me know what's up  ^_^ "></textarea>
+        
+
+        <a id="send">*High5*</a>
+
+
+        
+    </form>
+</div>
+
+
+<!-- end contact form --> 
+ 
+ 
+    <div id="carousel-example-generic" class="carousel slide" data-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>  
+         <li data-target="#carousel-example-generic" data-slide-to="4"></li> 
+
+          <li data-target="#carousel-example-generic" data-slide-to="5"></li> 
+
+          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+          
+             <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+             <li data-target="#carousel-example-generic" data-slide-to="8"></li> 
+             <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <!-- First slide -->
+        <div class="item active deepskyblue" id="paralax-1">
+
+         <div class="copyStory">
+                    
+                         
+                            <h1 class="animated bounceInLeft copyStory-title slowest-1" >hiya, welcome to my portfolio</h1>
+
+
+ 
+
+
+
+                     
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInRight textRight slowest-2"
+                             >and here we go.....</h1>
+ 
+
+
+                        </div><!-- end copy  -->
+                    </div>
+              
+        </div> <!-- /.item -->
+
+        <!-- Second slide -->
+        <div class="item" id="paralax-2">
+           <div class="copyStory-2">
+                 
+                        <div class="copyStory-title">
+                            <h1 class="animated bounceInLeft slowest-1">honestly......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInRight slowest-2">to me, being a front end developer means...<br>
+                            i have to get to know these guys pretty well:</h1>
+
+                            <h1 class="animated fadeInUp slowest-3">
+                            HTML5 &amp; CSS3</h1>
+
+                            <h1 class="animated fadeInRight slowest-4">jQuery &amp; Javascript libraries</h1>
+
+                            <h1 class="animated bounceInLeft slowest-5">SASS &amp; Compass</h1>
+                        </div> 
+                  
+                </div><!--.story-->
+        </div><!-- /.item -->
+
+        <!-- Third slide -->
+        <div class="item"  id="paralax-3">
+             <div class="copyStory-2">
+                 
+                        <div class="copyStory-title">
+                            <h1 class="animated bounceInLeft slowest-1"  >focus......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInRight slowest-2">how will an environmental change impact these <i>Usual
+                            Suspects</i>:</h1>
+
+                            <h1 class="animated fadeInUp slowest-3">
+                            responsive development</h1>
+
+                            <h1 class="animated fadeInRight slowest-4">browser support</h1>
+
+                            <h1 class="animated bounceInLeft slowest-5">device support</h1>
+                        </div><!-- end copy  -->
+                   
+                </div><!--.story-->
+        </div><!-- /.item -->
+
+         <!-- 4th slide -->
+        <div class="item" id="paralax-7">
+          <div class="copyStory-2">
+                    
+                        <div class="copyStory-title">
+                            <h1 class="animated bounceInLeft slowest-1"  >
+                            mindfulness......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInRight slowest-2">i try keep an eye on how these should affect
+                            my coding:</h1>
+
+                            <h1 class="animated fadeInUp slowest-3">
+                            mobile first?</h1>
+
+                            <h1 class="animated fadeInRight slowest-3">progressive enhancement?</h1>
+
+                            <h1 class="animated bounceInLeft slowest-4">graceful degradation?</h1>
+                        </div><!-- end copy  -->
+                    
+                </div><!--.story-->
+        </div><!-- /.item -->   
+
+          <!-- 5th slide -->
+        <div class="item" id="paralax-8">
+          <div class="copyStory-2">
+                    
+                     <div class="copyStory-title">
+                            <h1 class="animated bounceInLeft slowest-1"  >keep and open
+                            mind......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInRight slowest-2"  >new frameworks?</h1>
+
+                            <h1 class="animated fadeInUp slowest-3">
+                            better Libraries?</h1>
+
+                            <h1 class="animated fadeInRight slowest-3">is there something extra in context of my next
+                            project that i could/should use to make it even
+                            better?</h1>
+                        </div><!-- end copy  -->
+                    </div>
+                    
+            
+        </div><!-- /.item -->
+
+
+
+ <!-- 6th slide -->
+        <div class="item" id="paralax-9">
+          <div class="copyStory-2">
+                    
+                      <div class="copyStory-title">
+                            <h1 class="animated bounceInLeft slowest-1"  >flow......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInRight slowest-2"  >whats my workflow?</h1>
+
+                            <h1 class="animated fadeInUp slowest-3" >
+                            mac or pc?</h1>
+
+                            <h1 class="animated fadeInRight slowest-4">Android or IOS?</h1>
+
+                            <h1 class="animated bounceInLeft slowest-5">it really doesnt matter, my tools work every
+                            where...</h1>
+                        </div><!-- end copy  -->
+                    </div>
+                    
+            
+        </div><!-- /.item -->
+
+
+ <!-- 7th slide -->
+        <div class="item" id="paralax-10">
+          <div class="copyStory-2">
+                    
+                      <div class="copyStory-title">
+                            <h1 class="animated fadeInLeft slowest-1">evolve......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInRight slowest-2">the standards of practice are evolving</h1>
+
+                            <h1 class="animated bounceInDown slowest-3">and as developers, so should we...</h1>
+                        </div>
+                        <!-- end copy  -->
+                    </div>
+                    
+            
+        </div><!-- /.item -->
+
+ <!--8th slide -->
+        <div class="item" id="paralax-11">
+          <div class="copyStory-2">
+                    
+                     <div class="copyStory-title">
+                            <h1 class="animated fadeInLeft slowest-1" >travel and
+                            share......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInDown slowest-2">
+                            working exclusively on a contractual basis,
+                            puts me in touch with a wide range of people that
+                            have an incredibly diverse set of skills in web,
+                            digital &amp; creative</h1>
+
+                            <h1 class="animated bounceInDown slowest-3">and being based in london means i get to work
+                            with people from all over the world and all walks
+                            of life.</h1>
+
+                            <h1 class="animated bounceInDown slowest-4"  >#awesome</h1>
+
+                            <h1 class="animated bounceInDown slowest-5"  >#alwaysLearning</h1>
+                        </div>
+                    </div><!-- end copy  -->
+                 
+                    
+            
+        </div><!-- /.item -->
+ <!--9th slide -->
+        <div class="item" id="paralax-12">
+          <div class="copyStory-2">
+                    
+                       <div class="copyStory-title">
+                            <h1 class="animated fadeInLeft slowest-1">everything
+                            Zen......</h1>
+                        </div>
+
+                        <div class="copyStory-desc">
+                            <h1 class="animated bounceInDown slowest-2"  >&ldquo; Life is
+                            short, live your dream and wear your passion.
+                            &rdquo;</h1>
+                        </div>
+                    </div><!-- end copy  -->
+                 
+                    
+            
+        </div><!-- /.item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div><!-- /.carousel-inner -->
+  
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+          <i class="fa fa-hand-o-left"></i>
+        </span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"> <i class="fa fa-hand-o-right"></i></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+            
+            <!-- # -->
+        </section>  <!-- end power ups -->
+
+
+
+    </div><!-- End super cool suzy grid 3*3   -->
+
+    
+
+
+
+    <!-- Start handel bars template -->
+
+
+<script id="js-handel-bars-template" type="text/x-handlebars-template">
+
+
+{{#each list_year16}}
+<div class="mix category-2016" data-myorder="1" >
+   <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+
+   <p class="date-titleY"><strong>2016</strong></p>
+
+   <p class="date-title"><strong> {{{companyDate}}} </strong></p>
+
+   <p class="company-name"><strong>Company</strong>: {{{companyTitle}}} </p>
+
+   <p class="role-description"><strong>Company Expertise</strong>: {{{companyExpertise}}}  
+ </p>
+
+     <div class="showcontent">
+   <p class="role-description">
+    <strong>Project Outline</strong>:  {{{companyProjectoutline}}}  
+
+                            </p>
+
+ <p class="role-description">             
+        <strong>Skills Applied</strong>: {{{companySkillsapplied}}}    
+
+                            </p>
+                        </div>
+
+
+
+  <a class="sassybutton"> 
+ <span class="fa fa-plus"></span></a>   
+                    </div><!--  end time line item -->
+
+    </div><!--  end catagory -->
+ {{/each}}   
+
+
+
+
+
+   
+
+{{#each list_year15}}
+<div class="mix category-2015" data-myorder="1" >
+   <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+
+   <p class="date-titleY"><strong>2015</strong></p>
+
+   <p class="date-title"><strong> {{{companyDate}}} </strong></p>
+
+   <p class="company-name"><strong>Company</strong>: {{{companyTitle}}} </p>
+
+   <p class="role-description"><strong>Company Expertise</strong>: {{{companyExpertise}}}  
+ </p>
+
+     <div class="showcontent">
+   <p class="role-description">
+    <strong>Project Outline</strong>:  {{{companyProjectoutline}}}  
+
+                            </p>
+
+ <p class="role-description">             
+        <strong>Skills Applied</strong>: {{{companySkillsapplied}}}    
+
+                            </p>
+                        </div>
+
+
+
+  <a class="sassybutton"> 
+ <span class="fa fa-plus"></span></a>   
+                    </div><!--  end time line item -->
+
+    </div><!--  end catagory -->
+ {{/each}}   
+
+
+
+{{#each list_year14}}
+<div class="mix category-2014" data-myorder="1" >
+   <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+
+   <p class="date-titleY"><strong>2014</strong></p>
+
+   <p class="date-title"><strong> {{{companyDate}}} </strong></p>
+
+   <p class="company-name"><strong>Company</strong>: {{{companyTitle}}} </p>
+
+   <p class="role-description"><strong>Company Expertise</strong>: {{{companyExpertise}}}  
+ </p>
+
+     <div class="showcontent">
+   <p class="role-description">
+    <strong>Project Outline</strong>:  {{{companyProjectoutline}}}  
+
+                            </p>
+
+ <p class="role-description">             
+        <strong>Skills Applied</strong>: {{{companySkillsapplied}}}    
+
+                            </p>
+                        </div>
+
+
+
+  <a class="sassybutton"> 
+ <span class="fa fa-plus"></span></a>   
+                    </div><!--  end time line item -->
+
+    </div><!--  end catagory -->
+ {{/each}}
+
+
+{{#each list_year13}}
+<div class="mix category-2013" data-myorder="1" >
+   <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+
+   <p class="date-titleY"><strong>2013</strong></p>
+
+   <p class="date-title"><strong> {{{companyDate}}} </strong></p>
+
+   <p class="company-name"><strong>Company</strong>: {{{companyTitle}}} </p>
+
+   <p class="role-description"><strong>Company Expertise</strong>: {{{companyExpertise}}}  
+ </p>
+
+     <div class="showcontent">
+   <p class="role-description">
+    <strong>Project Outline</strong>:  {{{companyProjectoutline}}}  
+
+                            </p>
+
+ <p class="role-description">             
+        <strong>Skills Applied</strong>: {{{companySkillsapplied}}}    
+
+                            </p>
+                        </div>
+
+
+
+  <a class="sassybutton"> 
+ <span class="fa fa-plus"></span></a>   
+                    </div><!--  end time line item -->
+
+    </div><!--  end catagory -->
+ {{/each}}
+
+
+
+{{#each list_year12}}
+<div class="mix category-2012" data-myorder="1" >
+   <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+
+   <p class="date-titleY"><strong>2012</strong></p>
+
+   <p class="date-title"><strong> {{{companyDate}}} </strong></p>
+
+   <p class="company-name"><strong>Company</strong>: {{{companyTitle}}} </p>
+
+   <p class="role-description"><strong>Company Expertise</strong>: {{{companyExpertise}}}  
+ </p>
+
+     <div class="showcontent">
+ 
+
+ <p class="role-description">             
+        <strong>Skills Applied</strong>: {{{companySkillsapplied}}}    
+
+                            </p>
+                        </div>
+
+
+
+  <a class="sassybutton"> 
+ <span class="fa fa-plus"></span></a>   
+                    </div><!--  end time line item -->
+
+    </div><!--  end catagory -->
+ {{/each}}
+
+{{#each list_year11}}
+<div class="mix category-2011" data-myorder="1" >
+   <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+
+   <p class="date-titleY"><strong>2011</strong></p>
+
+   <p class="date-title"><strong> {{{companyDate}}} </strong></p>
+
+   <p class="company-name"><strong>Company</strong>: {{{companyTitle}}} </p>
+
+   <p class="role-description"><strong>Company Expertise</strong>: {{{companyExpertise}}}  
+ </p>
+
+     <div class="showcontent">
+ 
+
+ <p class="role-description">             
+        <strong>Skills Applied</strong>: {{{companySkillsapplied}}}    
+
+                            </p>
+                        </div>
+
+
+
+  <a class="sassybutton"> 
+ <span class="fa fa-plus"></span></a>   
+                    </div><!--  end time line item -->
+
+    </div><!--  end catagory -->
+ {{/each}}
+
+
+{{#each list_year10}}
+<div class="mix category-2010" data-myorder="1" >
+   <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+
+   <p class="date-titleY"><strong>2010</strong></p>
+
+   <p class="date-title"><strong> {{{companyDate}}} </strong></p>
+
+   <p class="company-name"><strong>Company</strong>: {{{companyTitle}}} </p>
+
+   <p class="role-description"><strong>Company Expertise</strong>: {{{companyExpertise}}}  
+ </p>
+
+     <div class="showcontent">
+ 
+
+ <p class="role-description">             
+        <strong>Skills Applied</strong>: {{{companySkillsapplied}}}    
+
+                            </p>
+                        </div>
+
+
+
+  <a class="sassybutton"> 
+ <span class="fa fa-plus"></span></a>   
+                    </div><!--  end time line item -->
+
+    </div><!--  end catagory -->
+ {{/each}}
+
+ 
+
+
+</script>
+<!-- end handel bars template -->
+
+ 
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {   
+
+// get my handelbars data plz 
+//////////////////////////////////////////
+   $.getJSON("web/resources/js/libs/jerbstuff.json", function( data ) {
+
+    console.log('got your json bro')
+        var src = document.getElementById("js-handel-bars-template").innerHTML.trim();
+     
+        var template = Handlebars.compile(src);
+   
+
+        var html = template( data );    
+        $('#output').html( html );
+    });
+
+    });
+
+
+
+
+
+
+
+</script>
+
+ 
+
+       <script>
+    
+
+ 
+            </script>
+
+ 
+</body>
+</html>

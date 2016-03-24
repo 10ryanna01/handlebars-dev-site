@@ -1,0 +1,1304 @@
+// Screen
+// ======
+@import "bootstrap";
+@import "bootstrap/carousel";
+@import "sassy-buttons";
+@import "grids";
+@import "breakpoint";
+@import "normalize";
+@import "modernizr"; 
+@import "compass/css3"; 
+@import "compass/css3/animation"; 
+@import "compass/css3/background-size";
+@import "compass/css3/background-origin";
+@import "compass/css3/opacity";
+@import "compass/css3/images";
+ 
+  // @import "compass";
+@import "compass/support";
+@import "fancybox";
+
+@import "animations";
+// @import "animations"; 
+
+ 
+ $preloadcolor: #dddddd;
+
+// sassy button styles
+$sb-base-color: #ffffff;
+
+// Base color of your button
+$sb-second-color: false;
+
+// Optional second color of button gradient
+$sb-border-radius: 5px;
+
+// Button border radius
+$sb-border-width: 1px;
+
+// Button border width
+$sb-padding: 0.5em 1em;
+
+// Button padding
+$sb-font-size: 20px;
+
+// Button font-size
+$sb-line-height: 1.2em;
+
+// Button line-height
+$sb-text-color: white;
+
+// Button text color
+$sb-text-style: "inset";
+
+// Button text shadow style
+$sb-gradient-style: "matte";
+
+// Button gradient style
+$sb-auto-states: true;
+
+// Automatically create pseudo styles
+
+// contrast tonning
+
+// core  theme colors
+ 
+
+$profilebgphotography: rgba(17, 23, 28, 0.5);
+
+$profilebg: #11171c;
+$profilecopy: #ffffff;
+
+$experiancebg: #f7f7f7;
+$experiancecopy: #5e5e5e;
+$experiancecopyHover: #088ecc;
+$powerupbg: #ffffff;
+
+$linkcolorsUP: #d35136;
+$linkcolorsHover: #27b599;
+
+$mobileDisplay: 1px 640px;
+$tabletDisplay: 641px 960px;
+
+
+
+
+
+* {
+    position: relative;
+    text-decoration: none!important;
+    @include box-sizing(border-box);
+    &:before {
+        @include box-sizing(border-box);
+    }
+    &:after {
+        @include box-sizing(border-box);
+    }
+}
+
+
+
+
+.js div#preloader {
+ position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%;
+ overflow: visible;
+   @include background(image-url("loading.gif" ) no-repeat center);
+   background-color:  $preloadcolor;  
+
+
+   h1{ text-align: center;
+   	 top:39%; margin:0; padding:0;}
+  }
+
+
+
+
+
+ 
+
+body {
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    @include transition(all 1s ease-in-out);
+    background: #f7f7f7;
+    @include font-smoothing(on);
+    // overflow-x: hidden;
+}
+
+a { 
+       color: $linkcolorsUP;
+    &:hover {
+         text-decoration: none ;
+        color: $linkcolorsHover;
+    }
+}
+
+.main-content-wrapper {
+    overflow: hidden;
+    @include container(12);
+    // This is equivalent to @include span(8 of 12);
+    section.profile {
+        @include span(3);
+        height: 5000px;
+        background: $profilebg;
+        // border: 1px solid red;
+        border-right: 0;
+        border-left: 0;
+        color: $profilecopy;
+        position: fixed;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+
+// hide contact form on desktop
+.mobilecontact{display: none;
+
+ 
+        .container1 {
+            width: 100%;
+            height: 50px;
+              color: #d35136;
+  border: 1px solid #ffffff;
+            cursor: pointer;
+                text-align: center;
+
+            // @include opacity(0.5);
+            @include transition(all 0.5s ease-in-out);
+            h1 {
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                font-size: 1.0em;
+                padding-right: 5%;
+                padding-top: 2%;
+            }
+
+
+            &:hover {
+                background: rgba(222, 222, 222, 1);
+                font-size: 150%;
+                height: 70px;
+            }
+        }
+
+        .zigzag {
+            position: relative;
+            width: 100%;
+            height: 50px;
+        }
+        .zigzag:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            width: 100%;
+            height: 10px;
+        }
+        .container2 {
+            
+            height: 1px;
+        }
+        .container2:before {
+            background: linear-gradient(45deg, transparent 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, transparent 66.667%);
+            background-size: 20px 40px;
+        }
+
+        }
+
+        @include breakpoint($tabletDisplay) {
+            @include span(6);
+
+            .mobilecontact{display: block; }
+        
+ span{text-align: center;}
+       
+        }
+
+        @include breakpoint($mobileDisplay) {
+            @include span(12);
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 350px;
+            z-index: 10;
+
+.mobilecontact{display: block;
+
+}
+
+        }
+
+        .picture-wrap {
+            padding: 10% 20px;
+            position: relative;
+            text-transform: capitalize;
+            p {
+                @include breakpoint($mobileDisplay) {
+                    @include span(6);
+                    display: block;
+                }
+
+                text-align: center;
+                margin: 0.5em 0;
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    @include border-radius(60%);
+                    @include breakpoint($mobileDisplay) {
+                        @include span(6);
+                        width: 10.0em;
+                        float: none;
+                    }
+                }
+            }
+            .infoCopy {
+                padding: 10% 0;
+                @include breakpoint($mobileDisplay) {
+                    padding: 0;
+                }
+
+                .infocopy-Text {
+                    padding-bottom: 5%;
+                    p:nth-of-type(3), p:nth-of-type(4) {
+                        font-size: 80%;
+                    }
+                }
+                .socialize {
+                    display: block;
+                    text-align: center;
+                    cursor: pointer;
+                    @include breakpoint($mobileDisplay) {
+                        float: right;
+                    }
+
+                    i {
+                        padding: 0;
+                        color: #f3f3f3;
+                        font-size: 2em;
+                    }
+                    i:nth-of-type(2) {
+                        font-size: 1.8em;
+                        padding: 0 10px;
+                    }
+                }
+            }
+            .sortFilters {
+                text-align: center;
+                letter-spacing: 3px;
+                cursor: pointer;
+                @include breakpoint($mobileDisplay) {
+                    padding-top: 7%;
+                    text-align: left;
+                }
+
+                @include transition(all 1s ease-in-out);
+                .filter {
+                    padding: 2% 0;
+                    @include transition(all 1s ease-in-out);
+                    &:hover {
+                        @include transition(all 1s ease-in-out);
+                        font-size: 150%;
+                        color: #088ecc;
+                    }
+                }
+                .active {
+                    @include transition(all 1s ease-in-out);
+                    font-size: 150%;
+                    color: #088ecc;
+                }
+                @include breakpoint($mobileDisplay) {
+                    @include span(12);
+                    display: block;
+                    .filter {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+    section.buffer {
+        @include span(3);
+        padding: 10%;
+        display: hidden;
+        @include breakpoint($tabletDisplay) {
+            @include span(6);
+            display: hidden;
+            z-index:-10;
+        }
+
+        @include breakpoint($mobileDisplay) {
+            @include span(12);
+            display: hidden;
+            height: 350px;
+                z-index:-10;
+        }
+    }
+  
+
+    section.experiance 
+    {
+
+        @include span(3);
+        background: $experiancebg;
+        // border: 1px solid blue;
+        border-right: 1px solid #dedede;
+        border-left: 0;
+        cursor: default;
+
+        i.fa, span.fa {font-style:normal;}
+
+        @include breakpoint($tabletDisplay) {
+            @include span(6);
+            display: block;
+            position: relative;
+            height: 100%;
+        }
+
+        @include breakpoint($mobileDisplay) {
+            @include span(12);
+            display: block;
+        }
+
+        .container1 {
+            width: 100%;
+            height: 50px;
+            background: rgba(222, 222, 222, 0.5);
+            cursor: pointer;
+            // @include opacity(0.5);
+            @include transition(all 0.5s ease-in-out);
+            h1 {
+                text-align: left;
+                padding: 0;
+                margin: 0;
+                font-size: 1.0em;
+                padding-left: 2%;
+                padding-top: 3%;
+            }
+            &:hover {
+                background: rgba(222, 222, 222, 1);
+                font-size: 150%;
+                height: 70px;
+            }
+        }
+        .zigzag {
+            position: relative;
+            width: 100%;
+            height: 50px;
+        }
+        .zigzag:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            width: 100%;
+            height: 10px;
+        }
+        .container2 {
+            background: #f7f7f7;
+            height: 1px;
+        }
+        .container2:before {
+            background: linear-gradient(45deg, transparent 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, transparent 66.667%);
+            background-size: 20px 40px;
+        }
+        #workexperiance .mix {
+            display: none;
+            // width:auto;
+            // 	float:left;
+       
+        }
+        div.timeline-item {
+            @include span(12);
+            padding: 0 10%;
+              clear: both;
+            // border:2px solid red;
+            &:hover {
+                .timeline-graphic {
+                    background: #27b599;
+                    @include transition(all 1s ease-in-out);
+                }
+                .pinstop {
+                    background: #27b599;
+                    @include transition(all 1s ease-in-out);
+                }
+                p {
+                    @include transition(all 2s ease-in-out);
+                }
+                p.role-description:nth-of-type(1) {
+                    margin-top: 0;
+                }
+                .date-titleY {
+                    font-size: 150%;
+                    @include transition(all 0.5s ease-in-out);
+                }
+            }
+            .date-titleY {
+                @include transition(all 0.5s ease-in-out);
+            }
+            .timeline-graphic {
+                position: absolute;
+                top: 25px;
+                left: 11px;
+                height: 100%;
+                width: 1%;
+                background: #eaeaea;
+                @include transition(all 1s ease-in-out);
+            }
+            .pinstop {
+                position: absolute;
+                min-width: 1em;
+                min-height: 1em;
+                @include border-radius(50%);
+                border: 2px solid #f7f7f7;
+                background: #d35136;
+                left: 5px;
+                top: 25px;
+                @include transition(all 1s ease-in-out);
+            }
+            // .timeline-item, .date-title, .company-name, .role-description
+            p {
+                font-size: 1.0em;
+                line-height: 1.4em;
+                color: $experiancecopy;
+                @include font-smoothing(on);
+                &:hover {
+                    color: $experiancecopyHover;
+                }
+            }
+            .sassybutton {
+                @include sassy-button("Matte", false, false, #d35136, #d35136);
+                text-align: center;
+                @include sassy-button-style("push");
+                color: #d35136;
+                border: 1px solid #d35136;
+                box-shadow: #e0e0e0 0 0.4em 14px, white 0 1px 0 inset;
+                display: inline-block;
+                width: 100%;
+                float: left;
+                i, span {   position: relative;
+                    top: 2px;}
+                &:hover {
+                    color: #27b599;
+                    border: 1px solid #27b599;
+                }
+            }
+            // hide contents
+            #readmore-1,
+            #readmore-2,
+            #readmore-3,
+            #readmore-4,
+            #readmore-5,
+            #readmore-6,
+            #readmore-7,
+            #readmore-8,
+            #readmore-9,
+            #readmore-10,
+            #readmore-11,
+            #readmore-12,
+            #readmore-13,
+            #readmore-14,
+            #readmore-15,
+            #readmore-16,
+            #readmore-17,
+            #readmore-18,
+            #readmore-19,
+            #readmore-20,
+            #readmore-21,
+            #readmore-22,
+            #readmore-23,
+            #readmore-24,
+            #readmore-25,
+            #readmore-26,
+            #readmore-27,
+            #readmore-28,  
+            #readmore-29,  
+            #readmore-30 
+             {
+                display: none;
+            }
+
+            overflow: hidden;
+        }
+    }
+
+      section.buffer-3 {
+        @include span(6);
+        padding: 10%;
+        z-index: -10;
+        @include breakpoint($tabletDisplay) {
+            @include span(6);
+            display: hidden;
+              z-index: -10;
+        }
+
+        @include breakpoint($mobileDisplay) {
+            @include span(12);
+            display: hidden;
+            height: 350px;
+        }
+    }
+    section.powerups {
+        @include span(6);
+        background: $powerupbg;
+        // border: 1px solid green;
+        border-right: 0;
+        border-left: 0;
+          right: 0;
+        top: 0;
+       height: 100%;
+ position: fixed;
+ overflow: hidden;
+      
+        @include box-sizing(border-box);
+      
+ // get in touch message
+
+        .container1 {
+            width: 100%;
+            height: 50px;
+            background: rgba(222, 222, 222, 0.5);
+            cursor: pointer;
+            // @include opacity(0.5);
+            @include transition(all 0.5s ease-in-out);
+            h1 {
+                text-align: right;
+                padding: 0;
+                margin: 0;
+                font-size: 1.0em;
+                padding-right: 5%;
+                padding-top: 2%;
+            }
+            &:hover {
+                background: rgba(222, 222, 222, 1);
+                font-size: 150%;
+                height: 70px;
+            }
+        }
+
+        .zigzag {
+            position: relative;
+            width: 100%;
+            height: 50px;
+        }
+        .zigzag:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+             width: 100%;
+            height: 10px;
+        }
+        .container2 {
+            background: #f7f7f7;
+            height: 1px;
+        }
+        .container2:before {
+            background: linear-gradient(45deg, transparent 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, transparent 66.667%);
+            background-size: 20px 40px;
+        }
+      
+// start contact form
+
+ 
+
+
+#contactmeDude { 
+
+    display: none; width: 600px; position: relative;
+overflow: hidden;
+
+//  form styling styling is in partial
+}
+ 
+// end contact form
+         
+        @include breakpoint($tabletDisplay) {
+            display: none;
+        }
+
+        @include breakpoint($mobileDisplay) {
+            display: none;
+        }
+
+  
+ 
+
+.introCopy { top:40%;}
+ 
+
+ // start animation styles  -distance and position in in each container
+// wrapper
+.textRight{text-align: right}
+.textLeft{text-align: right}
+.copyStory{ 
+
+.copyStory-title{ top:360px;}
+
+.copyStory-desc{top:480px;}
+
+
+}
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before{
+	content:" " ;
+}.carousel-indicators{ bottom: 10%;}
+.carousel {   height:100%;}
+.carousel-inner {  }
+.carousel-inner[role="listbox"] { }
+.carousel-control.right, 
+.carousel-control.left{ background:none; 
+&:hover {background:none;}}
+
+
+
+ 
+.carousel-caption h3:first-child {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+.carousel-caption button {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+
+ 
+ .slowest-1 {
+     @include animation-delay(1s);
+
+} 
+
+ 
+
+.slowest-2 {
+     @include animation-delay(2s);
+}
+
+.slowest-3 {
+   @include animation-delay(3s);
+}
+.slowest-4 {
+    @include animation-delay(4s);
+}
+
+.slowest-5 {
+    @include animation-delay(5s);
+}
+
+// ============================================
+        // start paralax styles
+        #paralax-1 {
+            @include background(image-url("pic1.jpg") no-repeat center top); 
+ 	            background-size: cover;
+            color:$experiancebg;
+            height: 1330px;
+             margin: 0 auto;
+            // height: 600px;
+                    padding: 0;   
+			  overflow:hidden;
+			text-align: center;
+
+
+            h1{background: $profilebgphotography;
+            display: inline-block; 
+          padding: 8px 20px;}
+    }
+
+
+        #paralax-2 {
+            @include background(image-url("pic2.jpg") no-repeat center top);
+            background-size: cover;
+            color: $experiancebg;
+            height: 1330px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 0;
+            text-align: center;
+.copyStory-2{ 
+.copyStory-title{ 	 
+  top: 70px;
+  text-align: left;
+  left: 110px;
+  font-style: italic;
+	h1{
+	  background: $profilebgphotography; display:inline-block; padding: 8px 20px;}
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{background: $profilebgphotography;
+
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 100px;
+  display: inline-block;
+  padding: 8px 20px;
+  right:  0;
+  text-align: left; }
+
+
+	h1:nth-of-type(2){ 
+
+	   top: 300px;
+  display: inline-block;
+  padding: 8px 20px;
+  right: 0;
+  text-align: left;}
+
+	 
+	h1:nth-of-type(3){ 
+	    top: 340px;
+  display: inline-block;
+  padding: 8px 20px;
+  right: 130px;
+  text-align: left;}
+
+	h1:nth-of-type(4){ 
+		  top: 490px;
+
+	display: inline-block;
+   padding: 8px 20px;
+  left: -160px;
+  text-align: left;}
+
+
+	h1:nth-of-type(5){  
+	top: 330px;
+  display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left;}
+	 
+
+
+}} }      
+       
+
+
+        #paralax-3  {
+            @include background(image-url("pic3.jpg") no-repeat center top);
+            
+            background-size: cover;
+            color: $experiancebg;
+            height: 1330px;
+             margin: 0 auto;
+            // height: 600px;
+                    padding: 0;   
+			  overflow:hidden;
+			text-align: center;
+
+
+            .copyStory-2{ 
+.copyStory-title{ 	 
+  top: 70px;
+  text-align: right;
+	h1{
+		 background: $profilebgphotography;
+	  display:inline-block; padding: 8px 20px;}
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{ 
+ background: $profilebgphotography;
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 100px;
+  display: inline-block;
+  padding: 8px 20px;
+  right:  0;
+  text-align: left }
+
+
+	h1:nth-of-type(2){ top:40px; 
+
+	   top: 180px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: center;}
+
+	 
+	h1:nth-of-type(3){ 
+	    top: 400px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: left; }
+
+	h1:nth-of-type(4){ 
+		  top: 550px;
+
+	display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left}
+
+
+	h1:nth-of-type(5){  
+	top: 330px;
+  display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left;}
+	 
+
+
+}}
+
+
+        }
+  
+        // skip this one
+
+ 
+  
+        .story .float-left, .story .float-right {
+            padding: 100px 0 0 0;
+            position: relative;
+            width: 350px;
+               
+        }
+        // end paralax styles
+        // new paralax slides
+        #paralax-7 {
+            @include background(image-url("pic7.jpg") no-repeat center top);
+          background-size: cover;
+            color: $experiancebg;
+            height: 1330px;
+             margin: 0 auto;
+            // height: 600px;
+                    padding: 0;   
+			  overflow:hidden;
+			text-align: center;
+
+
+                        .copyStory-2{ 
+.copyStory-title{ 	 
+  top: 70px;
+  text-align: left;
+	h1{
+		 background: $profilebgphotography;
+	  display:inline-block; padding: 8px 20px;}
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{ 
+ background: $profilebgphotography;
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 100px;
+  display: inline-block;
+  padding: 8px 20px;
+  right:  0;
+  text-align: left }
+
+
+	h1:nth-of-type(2){ top:40px; 
+
+	   top: 180px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: center;}
+
+	 
+	h1:nth-of-type(3){ 
+	    top: 340px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: left; }
+
+	h1:nth-of-type(4){ 
+		  top: 530px;
+
+	display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left}
+
+
+	h1:nth-of-type(5){  
+	top: 330px;
+  display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left;}
+	 
+
+
+}}
+
+
+        }
+
+
+     
+        #paralax-8 {
+            @include background(image-url("pic9.jpg") no-repeat center top);
+            background-size: cover;
+            color: $experiancebg;
+            height: 1330px;
+             margin: 0 auto;
+            // height: 600px;
+                    padding: 0;   
+			  overflow:hidden;
+			text-align: center;
+
+
+
+
+                        .copyStory-2{ 
+.copyStory-title{ 	 
+  top: 70px;
+  text-align: right;
+	h1{
+		 background: $profilebgphotography;
+	  display:inline-block; padding: 8px 20px;}
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{ 
+ background: $profilebgphotography;
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 90px;
+  display: inline-block;
+  padding: 8px 20px;
+  right:  0;
+  text-align: left }
+
+
+	h1:nth-of-type(2){  
+
+	   top: 240px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: center;}
+
+	 
+	h1:nth-of-type(3){ 
+	    top: 560px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: left; }
+
+	h1:nth-of-type(4){ 
+		  top: 340px;
+
+	display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left;
+
+}
+ 
+
+
+}
+
+}
+
+
+        }
+        #paralax-9 {
+            @include background(image-url("pic10.jpg") no-repeat center top);
+            
+            background-size: cover;
+            color: white;
+            height: 1330px;
+            
+            overflow: hidden;
+            padding: 0;
+
+
+             .copyStory-2{ 
+.copyStory-title{ 	 
+  top: 70px;
+  text-align: center;
+	h1{
+		 background: $profilebgphotography;
+	  display:inline-block;
+
+       padding: 8px 20px; }
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{ 
+ background: $profilebgphotography;
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 100px;
+  display: inline-block;
+  padding: 8px 20px;
+  left:  61px;
+  text-align: left }
+
+
+	h1:nth-of-type(2){  
+
+	   top: 252px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: center;}
+
+	 
+	h1:nth-of-type(3){ 
+        top: 380px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: center;}
+  h1:nth-of-type(4){ 
+	  top: 480px;
+  padding: 8px 20px;
+  display: inline-block;
+  left: 100px;}  
+
+ }} 
+
+
+
+        }
+        
+        #paralax-10 {
+            @include background(image-url("pic12.jpg") no-repeat center top);
+            background-size: cover;
+            color: white;
+            height: 1330px;
+            
+            padding: 0;
+
+
+             .copyStory-2{ 
+.copyStory-title{ 	 
+  top: 70px;
+  text-align: center;
+	h1{
+		 background: $profilebgphotography;
+	  display:inline-block; padding: 8px 20px;}
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{ 
+ background: $profilebgphotography;
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 260px;
+     display: inline-block;
+  padding: 8px 20px;
+   
+    }
+
+
+	h1:nth-of-type(2){  
+
+	   top: 482px;
+     display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: center;}
+
+	 
+	   
+
+ }} 
+
+
+        }
+
+
+        #paralax-11 {
+            @include background(image-url("pic13.jpg") no-repeat center top);
+            background-size: cover;
+            color: white;
+            height: 1330px;
+            
+            overflow: hidden;
+            padding: 0;
+
+
+
+
+                        .copyStory-2{ 
+.copyStory-title{ 	 
+  top: 70px;
+  text-align: right;
+	h1{
+
+	 background: $profilebgphotography;
+	  display:inline-block;
+	   padding: 8px 20px;}
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{ 
+ background: $profilebgphotography;
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 120px;
+  display: inline-block;
+  padding: 8px 20px;
+  right:  0;
+  text-align: left }
+
+
+	h1:nth-of-type(2){  
+
+	   top: 160px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: left;}
+
+	 
+	h1:nth-of-type(3){ 
+	    top: 180px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: left; 
+left:100px}
+
+	h1:nth-of-type(4){ 
+		  top: 300px;
+
+	display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left;
+
+}}}
+        }
+        
+        #paralax-12 {
+            @include background(image-url("pic15.jpg") no-repeat center top);
+            background-size: cover;
+            color: white;
+            height: 1330px;
+             
+            padding: 0;
+
+
+
+
+
+                        .copyStory-2{ 
+.copyStory-title{ 	 
+  top: 300px;
+ 
+	h1{
+
+	 background: $profilebgphotography;
+	  display:inline-block;
+	   padding: 8px 20px;
+	   left: 80px;
+	   text-align: left;
+	}
+  }
+
+.copyStory-desc {
+	 top:0;
+
+		 h1{ 
+ background: $profilebgphotography;
+		 }
+	h1:nth-of-type(1){  
+
+	  top: 500px;
+  display: inline-block;
+  padding: 8px 20px;
+  right:  0;
+  text-align: left }
+
+
+	h1:nth-of-type(2){  
+
+	   top: 160px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: left;}
+
+	 
+	h1:nth-of-type(3){ 
+	    top: 180px;
+  display: inline-block;
+  padding: 8px 20px;
+ 
+  text-align: left; 
+left:100px}
+
+	h1:nth-of-type(4){ 
+		  top: 300px;
+
+	display: inline-block;
+   padding: 8px 20px;
+  left: 0;
+  text-align: left;
+
+}}}
+        }
+
+
+
+      
+        #paralax-13 {
+            @include background(image-url("pic16.jpg") no-repeat center top);
+            background-size: cover;
+            color: white;
+            height: 1330px;
+           
+            overflow: hidden;
+            padding: 0;
+        }
+         
+        #paralax-14 {
+            @include background(image-url("pic18.jpg") no-repeat center top);
+            background-size: cover;
+            color: white;
+            height: 1330px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        #paralax-15 {
+            @include background(image-url("extra.jpg") no-repeat center top);
+            background-size: cover;
+            color: white;
+            height: 1330px;
+          
+            overflow: hidden;
+            padding: 0;
+        }
+     
+    }
+}
+
+
